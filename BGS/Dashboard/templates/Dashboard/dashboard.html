@@ -35,6 +35,21 @@
             height: 600px; /* Set height as needed */
             border: none; /* Remove border for a clean look */
         }
+
+        /* Set image styles */
+        #outlier-image {
+            width: 100%; /* Full width of its container */
+            height: auto; /* Adjust height automatically */
+            border: none; /* Remove border for a clean look */
+            display: block; /* Center the image */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        /* Style for the button */
+        .btn-link {
+            color: #337ab7; /* Blue color for links */
+            text-decoration: none; /* Remove underline */
+        }
     </style>
 </head>
 <body>
@@ -76,7 +91,13 @@
         <div class="well">
             <h4>Grafana Dashboard</h4>
             <!-- Replace the URL below with your public Grafana dashboard link -->
-            <iframe id="grafana-iframe" src="https://s5331651.grafana.net/public-dashboards/d747549302204b9b934e7eca67bc0c4c"></iframe>
+            <iframe id="grafana-iframe" src="http://13.53.78.253:3000/public-dashboards/71e8f9f372634d21b6866bb5c158344e"></iframe>
+        </div>
+
+        <!-- Button to link to another webpage -->
+        <div class="well">
+            <h4>Visit Outlier Detector Webpage</h4>
+            <a href="https://s5331651.grafana.net/public-dashboards/d747549302204b9b934e7eca67bc0c4c" class="btn btn-link" target="_blank">Go to Outlier Detector</a>
         </div>
     </div>
 
